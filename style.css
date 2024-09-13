@@ -1,19 +1,10 @@
-<<<<<<< HEAD
-html,body,*{
-    background-size:cover;
-    font-size: 16px;
-=======
 html,body,*
 {
     padding: 0;
     margin: 0;
->>>>>>> 4f6e41924dbcc981e7b18ba5178ccba54cbf8f17
     font-family: Arial, Helvetica, sans-serif;
     background-color: #16181d;
     color: white;
-<<<<<<< HEAD
-    background: #282828;
-=======
 }
 .bar{
     width: 35px;
@@ -28,7 +19,6 @@ html,body,*
     font-style: normal;
     text-align: center;
     font-size: 50px;
->>>>>>> 4f6e41924dbcc981e7b18ba5178ccba54cbf8f17
 }
 body{
     background-image: url(background-image: url("dark-mountain-gd3o1mx0wxezbewk.jpg"));
@@ -73,6 +63,26 @@ figcaption {
     display: block;
 }
 
+.main-content p{
+    margin: 20 25vw;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Yrsa", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.main-content h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
 h2 {
     font-family: "Varela Round", sans-serif;
     font-weight: 400;
@@ -80,12 +90,6 @@ h2 {
     text-align:left;
 }
 
-h3 {
-    font-family: "Yrsa", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
 
 figure .blog-image{
     display: block;
