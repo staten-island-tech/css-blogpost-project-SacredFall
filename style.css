@@ -1,9 +1,34 @@
+<<<<<<< HEAD
 html,body,*{
     background-size:cover;
     font-size: 16px;
+=======
+html,body,*
+{
+    padding: 0;
+    margin: 0;
+>>>>>>> 4f6e41924dbcc981e7b18ba5178ccba54cbf8f17
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #16181d;
     color: white;
+<<<<<<< HEAD
     background: #282828;
+=======
+}
+.bar{
+    width: 35px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 6px 0;
+
+}
+.entry-title {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+>>>>>>> 4f6e41924dbcc981e7b18ba5178ccba54cbf8f17
 }
 body{
     background-image: url(background-image: url("dark-mountain-gd3o1mx0wxezbewk.jpg"));
@@ -25,8 +50,82 @@ body{
 }
 
 
-.heading{
+figure {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    margin: auto;
     text-align: center;
-    font-size: 50;
-    font-stretch:condensed;
+    font-family: "Yrsa", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+
+.main-content{
+    display: block;
+}
+
+h2 {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:left;
+}
+
+h3 {
+    font-family: "Yrsa", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+figure .blog-image{
+    display: block;
+    width: 40%;
+    border-radius: 25px;
+    border: 2px solid #2e2e2e;
+    padding: 0px;
+    width: 700px;
+    height: 450px; 
+    object-fit: cover;
+}
+
+
+#banner{
+    float: left;
+    height: 50px;
+}
+#logo{
+    float: left;
+    height: 50px;
+}
+
+#navbar{
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+#navbar li {
+    display: inline;
+    float: left;
+}
+
+#navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover{
+    background-color:#4169E1;
 }
